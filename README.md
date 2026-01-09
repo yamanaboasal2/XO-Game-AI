@@ -70,12 +70,8 @@ Output:
 - −1 indicates O eventually wins
 
 The trained model predicts a score used by the Alpha–Beta search:
+
 score = P(X wins) − P(O wins)
-
-yaml
-Copy code
-
----
 
 ## Project Structure
 XO-Game-AI/
@@ -86,9 +82,6 @@ XO-Game-AI/
 ├── tictactoe_dataset.csv Dataset used for training
 ├── .gitignore
 └── README.md
-
-yaml
-Copy code
 
 ---
 
@@ -121,19 +114,17 @@ The game allows the user to:
 Clone the repository:
 ```bash
 git clone https://github.com/yamanaboasal2/XO-Game-AI.git
-Compile and run:
 
-bash
-Copy code
+Compile and run:
 javac TicTacToeAI.java
 java TicTacToeAI
-Optional: Train the machine learning model:
 
-bash
-Copy code
+Optional: Train the machine learning model:
 javac MLPTrainer.java
 java MLPTrainer
+
 Key Learning Outcomes
+
 Alpha–Beta pruning optimization
 
 Design of heuristic evaluation functions
@@ -145,11 +136,13 @@ Comparison of symbolic and data-driven AI approaches
 Feature engineering for game state representation
 
 Author
+
 Yaman Abo Asal
 4th Year Computer Engineering Student
 Artificial Intelligence Course Project
 
 Notes
+
 Hard difficulty with machine learning evaluation results in near-optimal gameplay
 
 Classical heuristic evaluation provides explainable decisions
